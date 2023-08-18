@@ -20,4 +20,4 @@ app.include_router(user.router)
 
 @app.get("/", status_code=status.HTTP_202_ACCEPTED)
 def root():
-    return "Welcome to the home page"
+    return "Welcome Home!"
